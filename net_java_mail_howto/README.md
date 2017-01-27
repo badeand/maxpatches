@@ -1,4 +1,4 @@
-# How to install Java Mail in Max
+# How to install Java Mail in Max on Mac OS
 
 
 Download the file ```javax.mail.jar``` from the following page:
