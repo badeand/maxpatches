@@ -13,12 +13,22 @@ void setup()
 {
   Serial.begin(9600); // open the arduino serial port
   pinMode( 0, INPUT );
+  pinMode( 1, INPUT );
+  pinMode( 5, OUTPUT);
 }
 
 void loop()
 {
   detectInputChange();
   delay(10);
+
+/**
+  digitalWrite ( 5, HIGH );
+  delay(100);
+  digitalWrite ( 5, LOW );
+  delay(100);
+  **/
+
 }
 
 void detectInputChange() {
