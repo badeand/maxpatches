@@ -22,12 +22,14 @@ void loop()
   detectInputChange();
   delay(10);
 
-/**
-  digitalWrite ( 5, HIGH );
-  delay(100);
-  digitalWrite ( 5, LOW );
-  delay(100);
-  **/
+  while (Serial.available() > 0) {
+    int ledState = Serial.read();
+    if ( ledState == 1 ) {
+      digitalWrite(5, HIGH);
+    } else {
+      digitalWrite(5, LOW);
+    }
+  }
 
 }
 

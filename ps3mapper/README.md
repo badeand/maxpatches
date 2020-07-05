@@ -7,7 +7,7 @@ You will need one Playstation 3 controller.
 
 Connect using instructions found on internett, for example:
 
-* [http://www.mactrast.com/2013/01/how-to-use-a-playstation-3-controller-with-your-mac/](http://www.wekinator.org/)
+* [http://www.mactrast.com/2013/01/how-to-use-a-playstation-3-controller-with-your-mac/](http://www.mactrast.com/2013/01/how-to-use-a-playstation-3-controller-with-your-mac/)
 
 ## Wekinator PS3Controller intput
 The patch maps analog stick L and R and convert messages to OSC messages for use in [Wekinator](http://www.wekinator.org/).
